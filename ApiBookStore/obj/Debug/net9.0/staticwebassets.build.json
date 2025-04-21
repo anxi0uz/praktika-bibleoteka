@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gnpXT3F188lUfLC2qYhWbtqntJVSVOwQLyXbRK1m0FI=",
+  "Source": "ApiBookStore",
+  "BasePath": "_content/ApiBookStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
