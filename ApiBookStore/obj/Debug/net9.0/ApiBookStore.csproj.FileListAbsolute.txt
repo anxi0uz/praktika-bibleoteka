@@ -328,3 +328,4 @@ F:\web dev\praktika library\praktika-bibleoteka\ApiBookStore\obj\Debug\net9.0\re
 F:\web dev\praktika library\praktika-bibleoteka\ApiBookStore\obj\Debug\net9.0\ApiBookStore.pdb
 F:\web dev\praktika library\praktika-bibleoteka\ApiBookStore\obj\Debug\net9.0\ApiBookStore.genruntimeconfig.cache
 F:\web dev\praktika library\praktika-bibleoteka\ApiBookStore\obj\Debug\net9.0\ref\ApiBookStore.dll
+F:\web dev\praktika library\praktika-bibleoteka\ApiBookStore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

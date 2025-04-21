@@ -1,0 +1,20 @@
+﻿library-client
+
+
+winexe
+C#
+.cs
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\
+library_client
+none
+false
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\App.xaml
+4241479660
+
+10-1514482584
+200161758370
+MainWindow.xaml;Windows\AdminWindow.xaml;Windows\UserWindow.xaml;Windows\WorkerWindow.xaml;
+
+False
+

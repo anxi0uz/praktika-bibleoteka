@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\windows\\workerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\windows\\workerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\windows\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\windows\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\models\\userauthorizerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\models\\userauthorizerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\windows\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AA0FEE-AF00-4827-83D9-2DD713095781}|library-client\\library-client.csproj|solutionrelative:library-client\\windows\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "library-client\\Windows\\UserWindow.xaml",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\UserWindow.xaml",
+              "RelativeToolTip": "library-client\\Windows\\UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T15:10:03.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkerWindow.xaml",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\WorkerWindow.xaml",
+              "RelativeDocumentMoniker": "library-client\\Windows\\WorkerWindow.xaml",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\WorkerWindow.xaml",
+              "RelativeToolTip": "library-client\\Windows\\WorkerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T15:09:51.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "library-client\\Enums\\Roles.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Enums\\Roles.cs",
+              "RelativeToolTip": "library-client\\Enums\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:08:22.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Models\\User.cs",
+              "RelativeDocumentMoniker": "library-client\\Models\\User.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Models\\User.cs",
+              "RelativeToolTip": "library-client\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:07:40.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "library-client\\Windows\\AdminWindow.xaml.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "library-client\\Windows\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:59:36.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserAuthorizeRequest.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Models\\UserAuthorizeRequest.cs",
+              "RelativeDocumentMoniker": "library-client\\Models\\UserAuthorizeRequest.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Models\\UserAuthorizeRequest.cs",
+              "RelativeToolTip": "library-client\\Models\\UserAuthorizeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:52:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "library-client\\Windows\\AdminWindow.xaml",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\Windows\\AdminWindow.xaml",
+              "RelativeToolTip": "library-client\\Windows\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T14:48:51.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "library-client\\MainWindow.xaml",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\MainWindow.xaml",
+              "RelativeToolTip": "library-client\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T14:43:27.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "library-client\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "library-client\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAywC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:43:24.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

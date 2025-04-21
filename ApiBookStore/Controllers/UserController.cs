@@ -13,7 +13,12 @@ namespace ApiBookStore.Controllers
         private readonly IAuthorizationService _authorizationService = authorizationService;
 
         [HttpGet]
-        public async Task<List<User>> GetUsersAsync()=>await _repository.GetUsersAsync();
+        public async Task<List<UserResponse>> GetUsersAsync()
+        {
+            var users = await _repository.GetUsersAsync();
+            var response = users.Select(s => new UserResponse(s.Id, s.Fio, s.BirthDate, s.Adress, s.Phonenumber, s.Role)).ToList();
+            return response;
+        }
         [HttpPost]
         public async Task<int> CreateUser([FromBody] UserRequest request)
         {
@@ -28,11 +33,12 @@ namespace ApiBookStore.Controllers
         }
 
         [HttpGet("authorize")]
-        public async Task<User> AuthorizeUser([FromBody] UserAuthorizeRequest request)
+        public async Task<UserResponse> AuthorizeUser([FromBody] UserAuthorizeRequest request)
         {
             var response = await _authorizationService.Authorize(request.login, request.password);
             if (response.response == false) return null;
-            else return response.user;
+            var responsefinal = new UserResponse(response.user.Id,response.user.Fio,response.user.BirthDate,response.user.Adress,response.user.Phonenumber,response.user.Role);
+            return responsefinal;
         }
 
         [HttpPost("authorize")]

@@ -1,0 +1,16 @@
+﻿<Window x:Class="library_client.Windows.WorkerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library_client.Windows"
+        mc:Ignorable="d"
+        Title="WorkerWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="UsersButton" Content="Читатели" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Height="105" Width="282"/>
+        <Button x:Name="GiveBooksButton" Content="Выдача книг" HorizontalAlignment="Center" Margin="0,246,0,0" VerticalAlignment="Top" Height="105" Width="282"/>
+        <Button x:Name="BooksButton" Content="Книги" HorizontalAlignment="Left" Margin="508,81,0,0" VerticalAlignment="Top" Height="105" Width="282"/>
+        <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="687,10,0,0" VerticalAlignment="Top" Width="103"/>
+
+    </Grid>
+</Window>

@@ -35,6 +35,8 @@ namespace ApiBookStore
                 app.MapOpenApi();
             }
 
+            app.UseCors(opt => opt.AllowAnyHeader().AllowAnyMethod().AllowAnyHeader());
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
