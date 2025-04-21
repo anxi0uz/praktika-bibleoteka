@@ -23,7 +23,6 @@ namespace ApiBookStore.Repositories
         public async Task<List<User>> GetUsersAsync()
         {
             return await _context.Users
-                .Include(u => u.RoleNavigation)
                 .AsNoTracking()
                 .ToListAsync();
         }

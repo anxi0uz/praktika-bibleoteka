@@ -2,7 +2,7 @@
 
 namespace ApiBookStore.Services
 {
-    public class AuthorizationService(IUserRepository repository)
+    public class AuthorizationService(IUserRepository repository) : IAuthorizationService
     {
         private readonly IUserRepository _repository = repository;
         public async Task<bool> Authorize(string login, string password)
@@ -14,7 +14,7 @@ namespace ApiBookStore.Services
         }
         public async Task<int> SignUp(string login, string password, string fio, string birthdate, string adress, string phoneNumber, int RoleId)
         {
-            return await _repository.CreateUser(login,password,fio,birthdate,adress,phoneNumber,RoleId);
+            return await _repository.CreateUser(login, password, fio, birthdate, adress, phoneNumber, RoleId);
         }
     }
 }

@@ -1,6 +1,9 @@
 
 using ApiBookStore.Abstractions;
+using ApiBookStore.DataAccess;
 using ApiBookStore.Repositories;
+using ApiBookStore.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiBookStore
 {
@@ -15,7 +18,14 @@ namespace ApiBookStore
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+            builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer("Data Source=PK452-8\\SQLEXPRESS;Initial Catalog=biblioteka923YA;Integrated Security=True;Encrypt=False;"));
             builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+            builder.Services.AddScoped<ITicketRepository,TicketRepository>();
+            builder.Services.AddScoped<IAuthorRepository,AuthorRepository>();
+            builder.Services.AddScoped<IBookRepository,BookRepository>();
+            builder.Services.AddScoped<IAuthorizationService,AuthorizationService>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

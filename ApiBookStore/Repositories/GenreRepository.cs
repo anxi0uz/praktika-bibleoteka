@@ -1,10 +1,11 @@
-﻿using ApiBookStore.DataAccess;
+﻿using ApiBookStore.Abstractions;
+using ApiBookStore.DataAccess;
 using ApiBookStore.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiBookStore.Repositories
 {
-    public class GenreRepository(AppDbContext context)
+    public class GenreRepository(AppDbContext context) : IGenreRepository
     {
         private readonly AppDbContext _context = context;
 
@@ -12,7 +13,7 @@ namespace ApiBookStore.Repositories
         {
             return await _context.Genres
                 .AsNoTracking()
-                .ToListAsync();  
+                .ToListAsync();
         }
         public async Task<int> CreateGenre(string name)
         {
@@ -24,7 +25,7 @@ namespace ApiBookStore.Repositories
         public async Task<int> UpdateGenre(int id, string name)
         {
             await _context.Genres.Where(g => g.Id == id)
-                .ExecuteUpdateAsync(s=>s.SetProperty(p=>p.Name,name));
+                .ExecuteUpdateAsync(s => s.SetProperty(p => p.Name, name));
             return id;
         }
         public async Task<int> DeleteGenre(int id)
