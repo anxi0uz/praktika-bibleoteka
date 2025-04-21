@@ -9,11 +9,13 @@ public partial class AppDbContext : DbContext
 {
     public AppDbContext()
     {
+        Database.EnsureCreated();
     }
 
     public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options)
     {
+        Database.EnsureCreated();
     }
 
     public virtual DbSet<Author> Authors { get; set; }

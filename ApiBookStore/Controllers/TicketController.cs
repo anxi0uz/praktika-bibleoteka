@@ -1,0 +1,36 @@
+using ApiBookStore.Abstractions;
+using ApiBookStore.Contracts;
+using ApiBookStore.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ApiBookStore.Controllers;
+[ApiController]
+[Route("[controller]")]
+public class TicketController(ITicketRepository repository)
+{
+    private readonly ITicketRepository _repository = repository;
+
+    [HttpGet]
+    public async Task<List<Ticket>> GetAllTickets()
+    {
+        return await _repository.GetTickets();
+    }
+
+    [HttpPost]
+    public async Task<int> CreateTicket([FromBody] TicketRequest request)
+    {
+        return await _repository.CreateTicket(request.idUser,request.idBook,request.dateReceived,request.datePost,request.ticketТumber);
+    }
+
+    [HttpPut("{id}")]
+    public async Task<int> UpdateTicket(int id, [FromBody] TicketRequest request)
+    {
+        return await _repository.UpdateUser(id,request.idUser,request.idBook,request.dateReceived,request.datePost,request.ticketТumber);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<int> DeleteTicket(int id)
+    {
+        return await _repository.DeleteTicket(id);
+    }
+}

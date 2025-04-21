@@ -9,7 +9,7 @@ public partial class Author
 
     public string Fio { get; set; } = null!;
 
-    public int IdBook { get; set; }
+    public int? IdBook { get; set; }
 
     public virtual ICollection<Book> Books { get; set; } = new List<Book>();
 }
