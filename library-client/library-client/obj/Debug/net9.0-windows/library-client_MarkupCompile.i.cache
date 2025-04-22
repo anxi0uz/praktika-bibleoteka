@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\
 library_client
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\App.xaml
-51777353296
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\App.xaml
+7-496977922
 
-17-60841437
-200-423684338
-MainWindow.xaml;Windows\AdminWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerWindow.xaml;
+19-1809142729
+200161758370
+Controls\UsersControl.xaml;MainWindow.xaml;Windows\AdminWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerUsers.xaml;Windows\WorkerWindow.xaml;
 
 True
 

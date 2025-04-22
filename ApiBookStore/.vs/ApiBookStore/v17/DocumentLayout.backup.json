@@ -1,122 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\",
+  "WorkspaceRootPath": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\contracts\\genreresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:contracts\\genreresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\contracts\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:contracts\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\abstractions\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:abstractions\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\contracts\\bookreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\contracts\\bookreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:contracts\\bookreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\abstractions\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\abstractions\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:abstractions\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\abstractions\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\abstractions\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:abstractions\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\contracts\\booknamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:contracts\\booknamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\contracts\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\contracts\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:contracts\\bookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Migrations\\20250422081715_fadeeva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250422081715_fadeeva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\abstractions\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\abstractions\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:abstractions\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\abstractions\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\abstractions\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:abstractions\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|c:\\\u043B\u044B\u043A\u043E\u0432 \u044E\u0437\u044C\u043A\u043E\u0432\\\u0431\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u044E\u0437\u044C\u043A\u043E\u0432\\apibookstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|f:\\web dev\\praktika library\\praktika-bibleoteka\\apibookstore\\migrations\\20250422081715_fadeeva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13208DAA-88C6-4941-A2C4-C1BD3EABD19D}|ApiBookStore.csproj|solutionrelative:migrations\\20250422081715_fadeeva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,118 +90,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenreResponse.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\GenreResponse.cs",
-              "RelativeDocumentMoniker": "Contracts\\GenreResponse.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\GenreResponse.cs",
-              "RelativeToolTip": "Contracts\\GenreResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:05:57.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "Repositories\\BookRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:32:00.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITicketRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\ITicketRepository.cs",
-              "RelativeDocumentMoniker": "Abstractions\\ITicketRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\ITicketRepository.cs",
-              "RelativeToolTip": "Abstractions\\ITicketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:01:43.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GenreRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\GenreRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GenreRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\GenreRepository.cs",
-              "RelativeToolTip": "Repositories\\GenreRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:34:27.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "Controllers\\TicketController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T09:22:53.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Program.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Program.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAhwC4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAC5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T09:28:39.327Z",
               "EditorCaption": ""
@@ -245,165 +112,106 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TicketRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\TicketRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TicketRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\TicketRepository.cs",
-              "RelativeToolTip": "Repositories\\TicketRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAQAAAAAAAAAA==",
+              "Title": "BookReponse.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Contracts\\BookReponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\BookReponse.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Contracts\\BookReponse.cs",
+              "RelativeToolTip": "Contracts\\BookReponse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:04:04.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T09:14:33.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AuthorRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\AuthorRepository.cs",
-              "RelativeToolTip": "Repositories\\AuthorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:22:07.232Z"
+              "WhenOpened": "2025-04-21T10:48:06.934Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TicketResponse.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\TicketResponse.cs",
-              "RelativeDocumentMoniker": "Contracts\\TicketResponse.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\TicketResponse.cs",
-              "RelativeToolTip": "Contracts\\TicketResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Title": "BookController.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwC0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T10:29:16.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T11:05:39.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookReponse.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\BookReponse.cs",
-              "RelativeDocumentMoniker": "Contracts\\BookReponse.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\BookReponse.cs",
-              "RelativeToolTip": "Contracts\\BookReponse.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T09:14:33.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T09:15:52.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDAAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "Abstractions\\IGenreRepository.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IGenreRepository.cs",
+              "RelativeToolTip": "Abstractions\\IGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:48:06.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T04:01:41.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:15:30.452Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwC0AAAAcAAAAAAAAAA==",
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Abstractions\\IBookRepository.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IBookRepository.cs",
+              "RelativeToolTip": "Abstractions\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T11:05:39.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T04:01:38.183Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:15:52.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IGenreRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IGenreRepository.cs",
-              "RelativeDocumentMoniker": "Abstractions\\IGenreRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IGenreRepository.cs",
-              "RelativeToolTip": "Abstractions\\IGenreRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:01:41.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Ticket.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Models\\Ticket.cs",
-              "RelativeToolTip": "Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:15:30.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "Abstractions\\IBookRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IBookRepository.cs",
-              "RelativeToolTip": "Abstractions\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:01:38.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "Author.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Models\\Author.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Models\\Author.cs",
               "RelativeDocumentMoniker": "Models\\Author.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Models\\Author.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Models\\Author.cs",
               "RelativeToolTip": "Models\\Author.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:23:19.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T10:23:19.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BookNameRequest.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\BookNameRequest.cs",
-              "RelativeDocumentMoniker": "Contracts\\BookNameRequest.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\BookNameRequest.cs",
-              "RelativeToolTip": "Contracts\\BookNameRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T08:37:22.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 12,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IUserRepository.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Abstractions\\IUserRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IUserRepository.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IUserRepository.cs",
               "RelativeToolTip": "Abstractions\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,37 +219,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "BookRequest.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\BookRequest.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Contracts\\BookRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\BookRequest.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\BookRequest.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Contracts\\BookRequest.cs",
               "RelativeToolTip": "Contracts\\BookRequest.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T08:27:28.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T08:27:28.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "20250422081715_fadeeva.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Migrations\\20250422081715_fadeeva.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Migrations\\20250422081715_fadeeva.cs",
               "RelativeDocumentMoniker": "Migrations\\20250422081715_fadeeva.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Migrations\\20250422081715_fadeeva.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Migrations\\20250422081715_fadeeva.cs",
               "RelativeToolTip": "Migrations\\20250422081715_fadeeva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T08:17:16.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T08:17:16.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 10,
               "Title": "IAuthorizationService.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IAuthorizationService.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IAuthorizationService.cs",
               "RelativeDocumentMoniker": "Abstractions\\IAuthorizationService.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IAuthorizationService.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IAuthorizationService.cs",
               "RelativeToolTip": "Abstractions\\IAuthorizationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -449,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 11,
               "Title": "IAuthorRepository.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IAuthorRepository.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "Abstractions\\IAuthorRepository.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Abstractions\\IAuthorRepository.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Abstractions\\IAuthorRepository.cs",
               "RelativeToolTip": "Abstractions\\IAuthorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -461,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 13,
               "Title": "UserRequest.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\UserRequest.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Contracts\\UserRequest.cs",
               "RelativeDocumentMoniker": "Contracts\\UserRequest.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Contracts\\UserRequest.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Contracts\\UserRequest.cs",
               "RelativeToolTip": "Contracts\\UserRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -473,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 14,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\appsettings.Development.json",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\appsettings.Development.json",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -485,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\appsettings.json",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\appsettings.json",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -497,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 17,
               "Title": "AuthorizationService.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Services\\AuthorizationService.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Services\\AuthorizationService.cs",
               "RelativeDocumentMoniker": "Services\\AuthorizationService.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Services\\AuthorizationService.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Services\\AuthorizationService.cs",
               "RelativeToolTip": "Services\\AuthorizationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -509,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\DataAccess\\AppDbContext.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\DataAccess\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\AppDbContext.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\DataAccess\\AppDbContext.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\DataAccess\\AppDbContext.cs",
               "RelativeToolTip": "DataAccess\\AppDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -521,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 18,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Models\\User.cs",
+              "DocumentMoniker": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\\u041B\u044B\u043A\u043E\u0432 \u042E\u0437\u044C\u043A\u043E\u0432\\\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430 \u042E\u0437\u044C\u043A\u043E\u0432\\ApiBookStore\\Models\\User.cs",
+              "ToolTip": "F:\\web dev\\praktika library\\praktika-bibleoteka\\ApiBookStore\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

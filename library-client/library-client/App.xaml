@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:library_client"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="lbl" TargetType="Label">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
     </Application.Resources>
 </Application>

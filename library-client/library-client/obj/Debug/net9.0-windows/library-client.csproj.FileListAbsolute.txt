@@ -54,3 +54,5 @@ C:\Лыков Юзьков\Библиотека Юзьков\library-client\libr
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\ref\library-client.dll
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.g.cs
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.baml
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.g.cs
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.baml
