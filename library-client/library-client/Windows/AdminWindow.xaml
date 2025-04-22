@@ -1,0 +1,15 @@
+﻿<Window x:Class="library_client.Windows.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library_client.Windows"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ManagmentUsers" Content="Управление читателями" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="106" Width="344"/>
+        <Button x:Name="ManagmentWorkers" Content="Управление сотрудниками" HorizontalAlignment="Left" Margin="446,217,0,0" VerticalAlignment="Top" Height="106" Width="344"/>
+        <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="680,23,0,0" VerticalAlignment="Top" Width="94" Click="ExitButton_Click"/>
+
+    </Grid>
+</Window>

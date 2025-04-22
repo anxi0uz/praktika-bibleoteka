@@ -36,6 +36,11 @@ namespace ApiBookStore.Repositories
                 .ExecuteDeleteAsync();
             return id;
         }
+        public async Task<Book?> GetBookByName(string name)
+        {
+            return await _context.Books
+                 .Where(p => p.Title.ToLower().Replace(" ", "") == name.ToLower().Replace(" ", "")).FirstOrDefaultAsync();
+        }
 
     }
 }

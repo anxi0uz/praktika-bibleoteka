@@ -1,0 +1,18 @@
+﻿<Window x:Class="library_client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library_client"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="361" Width="525">
+    <Grid>
+        <TextBox x:Name="loginTextBox" HorizontalAlignment="Left" Margin="193,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="user"/>
+        <Label x:Name="label1" Content="Библиотека" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF0061FF" FontSize="24"/>
+        <TextBox x:Name="passwordTextbox" HorizontalAlignment="Left" Margin="193,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="user123"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="130,117,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="130,148,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="AuthorizeButton" Content="Войти" HorizontalAlignment="Left" Margin="193,233,0,0" VerticalAlignment="Top" Width="120" Click="AuthorizeButton_Click"/>
+
+    </Grid>
+</Window>

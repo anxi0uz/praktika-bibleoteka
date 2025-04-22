@@ -8,5 +8,6 @@ namespace ApiBookStore.Abstractions
         Task<int> DeleteBook(int id);
         Task<List<Book>> GetBooks();
         Task<int> UpdateBook(int id, string title, int authorId, string publishDate, int genreId, decimal price);
+        Task<Book?> GetBookByName(string name);
     }
 }
