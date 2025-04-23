@@ -117,7 +117,7 @@ namespace library_client.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/library-client;component/windows/userwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/library-client;V1.0.0.0;component/windows/userwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\UserWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
