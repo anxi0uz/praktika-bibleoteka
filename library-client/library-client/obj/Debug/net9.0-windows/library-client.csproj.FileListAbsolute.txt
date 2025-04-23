@@ -54,3 +54,14 @@ C:\Лыков Юзьков\Библиотека Юзьков\library-client\libr
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\ref\library-client.dll
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.g.cs
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.baml
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.g.cs
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\UserTicket.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Controls\UsersControl.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerUsers.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\App.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Controls\UsersControl.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerUsers.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\CreateUserWindow.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerBooks.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\CreateUserWindow.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerBooks.baml

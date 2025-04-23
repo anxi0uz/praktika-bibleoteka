@@ -13,7 +13,7 @@
         <Button x:Name="SearchButton" Content="Поиск" HorizontalAlignment="Left" Margin="240,48,0,0" VerticalAlignment="Top" Width="105" Click="SearchButton_Click"/>
         <ComboBox x:Name="AuthorComboBox" HorizontalAlignment="Left" Margin="370,47,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="fio" SelectedValuePath="fio" SelectionChanged="AuthorComboBox_SelectionChanged"/>
         <ComboBox x:Name="GenreComboBox" HorizontalAlignment="Left" Margin="515,47,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="name" SelectedValuePath="name" SelectionChanged="GenreComboBox_SelectionChanged"/>
-        <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="695,5,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="695,5,0,0" VerticalAlignment="Top" Width="95" Click="ExitButton_Click"/>
         <DataGrid x:Name="booksDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,74,10,10" ColumnWidth="120"/>
         <Label Content="Автор" HorizontalAlignment="Left" Margin="370,21,0,0" VerticalAlignment="Top"/>
         <Label Content="Жанр" HorizontalAlignment="Left" Margin="515,21,0,0" VerticalAlignment="Top"/>

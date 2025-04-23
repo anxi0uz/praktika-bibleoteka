@@ -13,7 +13,7 @@ namespace ApiBookStore.Controllers
         private readonly ITicketRepository _repository1 = repository1;
 
         [HttpGet]
-        public async Task<List<Book>> GetBooksAsync()
+        public async Task<List<BookReponse>> GetBooksAsync()
         {
             return await _repository.GetBooks();
         }
@@ -39,7 +39,7 @@ namespace ApiBookStore.Controllers
             return await _repository.GetBookByName(name);
         }
         [HttpGet("{id:int}")]
-        public async Task<List<BookReponse>> GetBookByUsersId(int id)
+        public async Task<List<BookReponse>> GetBookByUsersId(int id) 
         {
             var books = await _repository1.GetBooksByUserId(id);
             var response = books.Select(b => new BookReponse(b.Id, b.Title, b.Author.Fio, b.PublishDate, b.Genre.Name, b.Price)).ToList();

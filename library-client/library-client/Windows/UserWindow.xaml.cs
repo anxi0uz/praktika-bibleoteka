@@ -105,5 +105,12 @@ namespace library_client.Windows
             var bookss = books.Where(p => p.genre == GenreComboBox.SelectedValue.ToString()).ToList();
             booksDataGrid.ItemsSource = bookss;
         }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wnd = new MainWindow();
+            wnd.Show();
+            this.Close();
+        }
     }
 }

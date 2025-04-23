@@ -50,7 +50,7 @@ namespace library_client
                 }
                 else if (user1.roleId == (int)Roles.Worker)
                 {
-                    var wnd = new WorkerWindow();
+                    var wnd = new WorkerWindow(user1,client,baseUrl);
                     wnd.Show();
                     this.Hide();
                 }

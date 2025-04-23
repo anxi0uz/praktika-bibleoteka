@@ -1,6 +1,8 @@
-﻿using System;
+﻿using library_client.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -19,9 +21,16 @@ namespace library_client.Windows
     /// </summary>
     public partial class WorkerWindow : Window
     {
-        public WorkerWindow()
+        private readonly User user;
+        private readonly HttpClient client;
+        private readonly string baseUrl;
+
+        public WorkerWindow(User user, HttpClient client, string baseUrl)
         {
             InitializeComponent();
+            this.user = user;
+            this.client = client;
+            this.baseUrl = baseUrl;
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
@@ -29,6 +38,20 @@ namespace library_client.Windows
             var wnd = new MainWindow();
             wnd.Show();
             this.Close();
+        }
+
+        private void UsersButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wnd = new WorkerUsers(user,client,baseUrl);
+            wnd.Show();
+            this.Hide();
+        }
+
+        private void BooksButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wnd = new WorkerBooks(user,client,baseUrl);
+            wnd.Show();
+            this.Hide();
         }
     }
 }

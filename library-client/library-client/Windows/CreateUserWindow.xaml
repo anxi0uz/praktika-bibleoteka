@@ -1,0 +1,25 @@
+﻿<Window x:Class="library_client.Windows.CreateUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library_client.Windows"
+        mc:Ignorable="d"
+        Title="CreateUserWindow" Height="340" Width="390">
+    <Grid>
+        <TextBox x:Name="LoginTextBox" HorizontalAlignment="Left" Margin="150,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="PasswordTextbox" HorizontalAlignment="Left" Margin="150,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="FioTextBox" HorizontalAlignment="Left" Margin="150,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="BirthTextBox" HorizontalAlignment="Left" Margin="150,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="AdressTextBox" HorizontalAlignment="Left" Margin="150,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="PhoneTextBox" HorizontalAlignment="Left" Margin="150,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
+        <Button x:Name="CreateUserButton" Content="Создать читателя" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top" Width="360" Click="CreateUserButton_Click"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата Рождения" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Height="43" Width="115"/>
+        <Label Content="Адрес" HorizontalAlignment="Left" Margin="10,181,0,0" VerticalAlignment="Top"/>
+        <Label Content="Телефон" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

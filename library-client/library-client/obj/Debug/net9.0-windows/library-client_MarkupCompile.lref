@@ -1,8 +1,12 @@
 ﻿
-
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\App.xaml;;
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Controls\UsersControl.xaml;;
 FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\MainWindow.xaml;;
 FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\AdminWindow.xaml;;
-FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\UserWindow.xaml;;
-FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\WorkerWindow.xaml;;
 FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\UserTicket.xaml;;
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\UserWindow.xaml;;
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\WorkerUsers.xaml;;
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\WorkerWindow.xaml;;
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\CreateUserWindow.xaml;;
+FC:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\Windows\WorkerBooks.xaml;;
 

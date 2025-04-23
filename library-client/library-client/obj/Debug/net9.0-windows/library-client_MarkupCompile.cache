@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\App.xaml
-51777353296
+91004363790
 
-151464463015
+21-131900316
 200-423684338
-MainWindow.xaml;Windows\AdminWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerWindow.xaml;
+Controls\UsersControl.xaml;MainWindow.xaml;Windows\AdminWindow.xaml;Windows\CreateUserWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerBooks.xaml;Windows\WorkerUsers.xaml;Windows\WorkerWindow.xaml;
 
 False
 

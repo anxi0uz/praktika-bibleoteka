@@ -1,4 +1,5 @@
 ﻿using ApiBookStore.Abstractions;
+using ApiBookStore.Contracts;
 using ApiBookStore.DataAccess;
 using ApiBookStore.Models;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,12 @@ namespace ApiBookStore.Repositories
     {
         private readonly AppDbContext _context = context;
 
-        public async Task<List<Book>> GetBooks() => await _context.Books.AsNoTracking().ToListAsync();
+        public async Task<List<BookReponse>> GetBooks()
+        {
+            var books = await _context.Books.Include(p=>p.Genre).Include(p=>p.Author).AsNoTracking().ToListAsync();
+            var response = books.Select(s => new BookReponse(s.Id, s.Title, s.Author.Fio, s.PublishDate, s.Genre.Name, s.Price)).ToList();
+            return response;
+        }
 
         public async Task<int> CreateBooks(string title, int authorId, string publishDate, int genreId, decimal price)
         {
