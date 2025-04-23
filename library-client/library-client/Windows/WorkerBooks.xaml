@@ -7,17 +7,18 @@
         mc:Ignorable="d"
         Title="WorkerBooks" Height="450" Width="800">
     <Grid>
-        <ComboBox HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="280,62,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="565,62,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="cancelButton" Content="Назад" HorizontalAlignment="Left" Margin="715,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="GenreComboBox" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="name" SelectedValuePath="name" SelectionChanged="GenreComboBox_SelectionChanged"/>
+        <ComboBox x:Name="AuthorsComboBox" HorizontalAlignment="Left" Margin="280,62,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="fio" SelectedValuePath="fio" SelectionChanged="AuthorsComboBox_SelectionChanged"/>
+        <ComboBox x:Name="YearsComboBox" HorizontalAlignment="Left" Margin="565,62,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="YearsComboBox_SelectionChanged"/>
+        <Button x:Name="cancelButton" Content="Назад" HorizontalAlignment="Left" Margin="715,10,0,0" VerticalAlignment="Top" Width="75" Click="cancelButton_Click"/>
         <TextBox x:Name="searchingTextBox" HorizontalAlignment="Left" Margin="10,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270"/>
         <Button x:Name="SearchButton" Content="Поиск" HorizontalAlignment="Left" Margin="302,104,0,0" VerticalAlignment="Top" Click="SearchButton_Click"/>
-        <DataGrid x:Name="BooksDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,134,10,10"/>
-        <Button x:Name="AddBook" Content="Добавить книгу" HorizontalAlignment="Left" Margin="400,104,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="BooksDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,134,10,10" ColumnWidth="125"/>
+        <Button x:Name="AddBook" Content="Добавить книгу" HorizontalAlignment="Left" Margin="400,104,0,0" VerticalAlignment="Top" Click="AddBook_Click"/>
         <Label Content="Жанр" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top"/>
         <Label Content="Автор" HorizontalAlignment="Left" Margin="280,26,0,0" VerticalAlignment="Top"/>
         <Label Content="Год Издания" HorizontalAlignment="Left" Margin="565,34,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="UpdateButton" Content="Обновить" HorizontalAlignment="Left" Margin="520,104,0,0" VerticalAlignment="Top" Width="85" Click="UpdateButton_Click"/>
 
     </Grid>
 </Window>

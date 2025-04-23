@@ -98,8 +98,15 @@ namespace library_client.Windows
 
         private void CreateUserButton_Click(object sender, RoutedEventArgs e)
         {
-            var wnd = new CreateUserWindow(client,baseUrl);
+            var wnd = new CreateUserWindow(client,baseUrl,false,false);
             wnd.ShowDialog();
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wnd = new WorkerWindow(user,client,baseUrl);
+            wnd.Show();
+            this.Close();
         }
     }
 }

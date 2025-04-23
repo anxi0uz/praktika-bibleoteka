@@ -25,41 +25,111 @@ namespace library_client.Windows
     {
         private readonly HttpClient client;
         private readonly string baseUrl;
+        private readonly bool isChange;
+        private readonly bool isWorker;
 
-        public CreateUserWindow(HttpClient client, string baseUrl)
+        public CreateUserWindow(HttpClient client, string baseUrl, bool isChange, bool isWorker)
         {
             InitializeComponent();
             this.client = client;
             this.baseUrl = baseUrl;
+            this.isChange = isChange;
+            this.isWorker = isWorker;
+            if (isChange)
+            {
+                idlabel.Visibility = Visibility.Visible;
+                idTextBox.Visibility = Visibility.Visible;
+            }
         }
 
         private async void CreateUserButton_Click(object sender, RoutedEventArgs e)
         {
-            //UserStatic.login = LoginTextBox.Text;
-            //UserStatic.password = PasswordTextbox.Text;
-            //UserStatic.role = (int)Roles.User;
-            //UserStatic.fio = FioTextBox.Text;
-            //UserStatic.birthday = BirthTextBox.Text;
-            //UserStatic.phone = PhoneTextBox.Text;
-            //UserStatic.adress = AdressTextBox.Text;
-            var user = new User2()
+            if (!isChange)
             {
-                adress = AdressTextBox.Text,
-                birthday = BirthTextBox.Text,
-                phone = PhoneTextBox.Text,
-                fio = FioTextBox.Text,
-                login = LoginTextBox.Text,
-                password = PasswordTextbox.Text,
-                role = (int)Roles.User,
-            };
-            var userJson = JsonSerializer.Serialize(user);
-            var content = new StringContent(userJson, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync($"{baseUrl}/User",content);
-            if (response.IsSuccessStatusCode)
-            {
-                MessageBox.Show("Читатель добавлен!");
+                if (!isWorker)
+                {
+                    var user = new User2()
+                    {
+                        adress = AdressTextBox.Text,
+                        birthday = BirthTextBox.Text,
+                        phone = PhoneTextBox.Text,
+                        fio = FioTextBox.Text,
+                        login = LoginTextBox.Text,
+                        password = PasswordTextbox.Text,
+                        role = (int)Roles.User,
+                    };
+                    var userJson = JsonSerializer.Serialize(user);
+                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                    var response = await client.PostAsync($"{baseUrl}/User", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Читатель добавлен!");
+                    }
+                }
+                else
+                {
+                    var user = new User2()
+                    {
+                        adress = AdressTextBox.Text,
+                        birthday = BirthTextBox.Text,
+                        phone = PhoneTextBox.Text,
+                        fio = FioTextBox.Text,
+                        login = LoginTextBox.Text,
+                        password = PasswordTextbox.Text,
+                        role = (int)Roles.Worker,
+                    };
+                    var userJson = JsonSerializer.Serialize(user);
+                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                    var response = await client.PostAsync($"{baseUrl}/User", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Сотрудник добавлен!");
+                    }
+                }
             }
-            //this.Close();
+            else if (isChange)
+            {
+                if (!isWorker)
+                {
+                    var user = new User2()
+                    {
+                        adress = AdressTextBox.Text,
+                        birthday = BirthTextBox.Text,
+                        phone = PhoneTextBox.Text,
+                        fio = FioTextBox.Text,
+                        login = LoginTextBox.Text,
+                        password = PasswordTextbox.Text,
+                        role = (int)Roles.User,
+                    };
+                    var userJson = JsonSerializer.Serialize(user);
+                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                    var response = await client.PutAsync($"{baseUrl}/User/{idTextBox.Text}", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Читатель обновлен");
+                    }
+                }
+                else
+                {
+                    var user = new User2()
+                    {
+                        adress = AdressTextBox.Text,
+                        birthday = BirthTextBox.Text,
+                        phone = PhoneTextBox.Text,
+                        fio = FioTextBox.Text,
+                        login = LoginTextBox.Text,
+                        password = PasswordTextbox.Text,
+                        role = (int)Roles.Worker,
+                    };
+                    var userJson = JsonSerializer.Serialize(user);
+                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                    var response = await client.PutAsync($"{baseUrl}/User/{idTextBox.Text}", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Сотрудник обновлен");
+                    }
+                }
+            }
         }
     }
 }

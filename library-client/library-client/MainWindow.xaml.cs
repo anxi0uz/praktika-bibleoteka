@@ -37,29 +37,46 @@ namespace library_client
             {
                 Content = content
             };
-            var response = await client.SendAsync(request);
-            if (response.IsSuccessStatusCode)
+            try
             {
-                var responsebody = await response.Content.ReadAsStringAsync();
-                var user1 = JsonSerializer.Deserialize<User>(responsebody);
-                if (user1.roleId == (int)Roles.Admin)
+                var response = await client.SendAsync(request);
+                if (response.IsSuccessStatusCode)
                 {
-                    var wnd = new AdminWindow();
-                    wnd.Show();
-                    this.Hide();
+
+                    var responsebody = await response.Content.ReadAsStringAsync();
+                    var user1 = JsonSerializer.Deserialize<User>(responsebody);
+
+                    if (user1.roleId == (int)Roles.Admin)
+                    {
+                        var wnd = new AdminWindow(user1,client,baseUrl);
+                        wnd.Show();
+                        this.Hide();
+                    }
+                    else if (user1.roleId == (int)Roles.Worker)
+                    {
+                        var wnd = new WorkerWindow(user1, client, baseUrl);
+                        wnd.Show();
+                        this.Hide();
+                    }
+                    else if (user1.roleId == (int)Roles.User)
+                    {
+                        var wnd = new UserWindow(user1, client, baseUrl);
+                        wnd.Show();
+                        this.Hide();
+                    }
                 }
-                else if (user1.roleId == (int)Roles.Worker)
-                {
-                    var wnd = new WorkerWindow(user1,client,baseUrl);
-                    wnd.Show();
-                    this.Hide();
-                }
-                else if (user1.roleId == (int)Roles.User)
-                {
-                    var wnd = new UserWindow(user1,client,baseUrl);
-                    wnd.Show();
-                    this.Hide();
-                }
+            }
+            catch (JsonException ex)
+            {
+                MessageBox.Show("Логин и пароль неверны");
+            }
+            catch (HttpRequestException ex)
+            {
+                MessageBox.Show("Ошибка в подключении");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex}");
             }
         }
     }

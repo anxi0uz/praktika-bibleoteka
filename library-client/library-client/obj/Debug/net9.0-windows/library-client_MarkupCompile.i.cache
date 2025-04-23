@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\
 library_client
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\App.xaml
-91004363790
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
+F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\App.xaml
+121229253667
 
-23-1657204768
-200-423684338
-Controls\UsersControl.xaml;MainWindow.xaml;Windows\AdminWindow.xaml;Windows\CreateUserWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerBooks.xaml;Windows\WorkerUsers.xaml;Windows\WorkerWindow.xaml;
+281885383980
+200161758370
+Controls\UsersControl.xaml;MainWindow.xaml;Windows\AddBook.xaml;Windows\AdminUser.xaml;Windows\AdminWindow.xaml;Windows\CreateUserWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerBookRelease.xaml;Windows\WorkerBooks.xaml;Windows\WorkerUsers.xaml;Windows\WorkerWindow.xaml;
 
 False
 

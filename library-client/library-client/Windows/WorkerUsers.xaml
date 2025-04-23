@@ -9,7 +9,7 @@
     <Grid>
         <ComboBox x:Name="FioComboBox" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="fio" SelectedValuePath="fio" SelectionChanged="FioComboBox_SelectionChanged"/>
         <ComboBox x:Name="BirthComboBox" HorizontalAlignment="Center" Margin="0,67,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="birthDate" SelectedValuePath="birthDate" SelectionChanged="BirthComboBox_SelectionChanged"/>
-        <Button x:Name="ExitButton" Content="Назад" HorizontalAlignment="Left" Margin="695,10,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="ExitButton" Content="Назад" HorizontalAlignment="Left" Margin="695,10,0,0" VerticalAlignment="Top" Width="95" Click="ExitButton_Click"/>
         <TextBox x:Name="TicketNumberComboBox" HorizontalAlignment="Left" Margin="10,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310"/>
         <Button x:Name="SearchButton" Content="Поиск" HorizontalAlignment="Left" Margin="360,108,0,0" VerticalAlignment="Top" Width="100"/>
         <DataGrid x:Name="usersDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,133,10,10"/>

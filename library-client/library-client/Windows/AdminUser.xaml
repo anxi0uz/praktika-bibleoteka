@@ -1,0 +1,20 @@
+﻿<Window x:Class="library_client.Windows.AdminUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library_client.Windows"
+        mc:Ignorable="d"
+        Title="AdminUser" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="706,10,0,0" VerticalAlignment="Top" Width="84" Click="ExitButton_Click"/>
+        <Button x:Name="CreateUser" Content="Создать" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Width="112" Click="CreateUser_Click"/>
+        <Button x:Name="UpdateUserButton" Content="Обновить" HorizontalAlignment="Left" Margin="142,387,0,0" VerticalAlignment="Top" Width="112" Click="UpdateUserButton_Click"/>
+        <Button x:Name="DeleteUserButton" Content="Удалить" HorizontalAlignment="Left" Margin="288,386,0,0" VerticalAlignment="Top" Width="112" Click="DeleteUserButton_Click"/>
+        <DataGrid x:Name="UsersDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,49,10,69"/>
+        <TextBox x:Name="idTextBoxForDelete" HorizontalAlignment="Left" Margin="528,387,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID для удаления" HorizontalAlignment="Left" Margin="425,382,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="UpdateDataGrid" Content="Обеновить таблицу" HorizontalAlignment="Left" Margin="672,385,0,0" VerticalAlignment="Top" Click="UpdateDataGrid_Click"/>
+
+    </Grid>
+</Window>
