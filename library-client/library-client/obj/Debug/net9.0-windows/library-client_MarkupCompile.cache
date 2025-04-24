@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\
 library_client
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\App.xaml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\App.xaml
 121229253667
 
-26-884278864
-200161758370
+271013855688
+200-423684338
 Controls\UsersControl.xaml;MainWindow.xaml;Windows\AddBook.xaml;Windows\AdminUser.xaml;Windows\AdminWindow.xaml;Windows\CreateUserWindow.xaml;Windows\UserTicket.xaml;Windows\UserWindow.xaml;Windows\WorkerBookRelease.xaml;Windows\WorkerBooks.xaml;Windows\WorkerUsers.xaml;Windows\WorkerWindow.xaml;
 
 False

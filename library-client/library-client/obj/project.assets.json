@@ -8,25 +8,28 @@
     "net9.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yuzko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\user452.CHENK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\library-client.csproj",
+      "projectUniqueName": "C:\\Лыков Юзьков\\Библиотека Юзьков\\library-client\\library-client\\library-client.csproj",
       "projectName": "library-client",
-      "projectPath": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\library-client.csproj",
-      "packagesPath": "C:\\Users\\yuzko\\.nuget\\packages\\",
-      "outputPath": "F:\\web dev\\praktika library\\praktika-bibleoteka\\library-client\\library-client\\obj\\",
+      "projectPath": "C:\\Лыков Юзьков\\Библиотека Юзьков\\library-client\\library-client\\library-client.csproj",
+      "packagesPath": "C:\\Users\\user452.CHENK\\.nuget\\packages\\",
+      "outputPath": "C:\\Лыков Юзьков\\Библиотека Юзьков\\library-client\\library-client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\yuzko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user452.CHENK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0-windows"
@@ -52,7 +55,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0-windows7.0": {
@@ -76,7 +79,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

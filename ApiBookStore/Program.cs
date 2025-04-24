@@ -18,8 +18,8 @@ namespace ApiBookStore
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
-            //builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer("Data Source=PK452-8\\SQLEXPRESS;Initial Catalog=biblioteka923YA2;Integrated Security=True;Encrypt=False;"));
-            builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer("Data Source=DESKTOP-NJGEGMS;Initial Catalog=biblioteka923YA2;Integrated Security=True;Encrypt=False;"));
+            builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer("Data Source=PK452-8\\SQLEXPRESS;Initial Catalog=biblioteka923YA2;Integrated Security=True;Encrypt=False;"));
+            //builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer("Data Source=DESKTOP-NJGEGMS;Initial Catalog=biblioteka923YA2;Integrated Security=True;Encrypt=False;"));
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IGenreRepository, GenreRepository>();
             builder.Services.AddScoped<ITicketRepository,TicketRepository>();

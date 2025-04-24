@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:library_client.Windows"
         mc:Ignorable="d"
         Title="Читатель
-        " Height="450" Width="800">
+        " Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="mycard" Content="Личная карточка" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="155" Click="mycard_Click"/>
         <TextBox x:Name="BookNameTextBox" HorizontalAlignment="Left" Margin="10,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>

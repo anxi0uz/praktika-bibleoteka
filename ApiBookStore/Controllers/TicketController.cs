@@ -11,9 +11,11 @@ public class TicketController(ITicketRepository repository)
     private readonly ITicketRepository _repository = repository;
 
     [HttpGet]
-    public async Task<List<Ticket>> GetAllTickets()
+    public async Task<List<TicketResponse2>> GetAllTickets()
     {
-        return await _repository.GetTickets();
+        var tickets = await _repository.GetTickets();
+        var response = tickets.Select(s => new TicketResponse2(s.Id, s.IdUser, s.IdBook, s.DateReceived, s.DatePost, s.TickerNumber)).ToList();
+        return response;
     }
 
     [HttpPost]

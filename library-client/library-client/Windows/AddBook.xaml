@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:library_client.Windows"
         mc:Ignorable="d"
-        Title="AddBook" Height="371" Width="339">
+        Title="Добавление книги" Height="371" Width="339" WindowStartupLocation="CenterScreen">
     <Grid>
         <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="30" Margin="96,10,0,0"/>
         <TextBox x:Name="YearTextBox" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="30" Margin="96,99,0,0"/>

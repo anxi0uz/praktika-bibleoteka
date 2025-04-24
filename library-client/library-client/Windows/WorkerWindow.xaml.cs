@@ -53,5 +53,11 @@ namespace library_client.Windows
             wnd.Show();
             this.Hide();
         }
+
+        private void GiveBooksButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wnd = new WorkerBookRelease(user,client,baseUrl);
+            wnd.Show();
+        }
     }
 }

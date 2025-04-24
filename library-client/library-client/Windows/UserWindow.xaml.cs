@@ -27,7 +27,7 @@ namespace library_client.Windows
         private readonly HttpClient _client;
         private readonly string baseUrl;
 
-        public UserWindow(User user,HttpClient client,string baseUrl)
+        public UserWindow(User user, HttpClient client, string baseUrl)
         {
             InitializeComponent();
             _user = user;
@@ -53,15 +53,24 @@ namespace library_client.Windows
 
         private void mycard_Click(object sender, RoutedEventArgs e)
         {
-            var wnd = new UserTicket(_user,_client,baseUrl);
+            var wnd = new UserTicket(_user, _client, baseUrl);
             wnd.Show();
             this.Hide();
         }
 
         private async void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            var books = await FillDataGrid();
-            booksDataGrid.ItemsSource = books.Where(p => p.title.Contains(BookNameTextBox.Text));
+            
+            if (!string.IsNullOrEmpty(BookNameTextBox.Text))
+            {
+                var books = await FillDataGrid();
+                booksDataGrid.ItemsSource = books.Where(p => p.title.Contains(BookNameTextBox.Text));
+            }
+            else
+            {
+                var books = await FillDataGrid();
+                booksDataGrid.ItemsSource = books.Where(p => p.author == AuthorComboBox.SelectedValue.ToString() && p.genre == GenreComboBox.SelectedValue.ToString());
+            }
         }
         public async void FillComboBoxes()
         {
@@ -88,7 +97,7 @@ namespace library_client.Windows
         {
             if (AuthorComboBox.SelectedItem is null)
             {
-                return; 
+                return;
             }
             var books = await FillDataGrid();
             var bookss = books.Where(p => p.author == AuthorComboBox.SelectedValue.ToString()).ToList();

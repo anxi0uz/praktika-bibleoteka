@@ -41,93 +41,192 @@ namespace library_client.Windows
                 idTextBox.Visibility = Visibility.Visible;
             }
         }
+        public async Task<User?> GetUserById(int id)
+        {
+            var response = await client.GetAsync($"{baseUrl}/User");
+            var content = await response.Content.ReadAsStringAsync();
+            var users = JsonSerializer.Deserialize<List<User>>(content);
+            if (users is not null)
+            {
+                var response1 = users.Where(p => p.roleId == (int)Roles.User).ToList();
+                return response1.Where(p => p.id == id).FirstOrDefault();
+            }
+            else return null;
+        }
+        public async Task<User?> GetWorkerById(int id)
+        {
+            var response = await client.GetAsync($"{baseUrl}/User");
+            var content = await response.Content.ReadAsStringAsync();
+            var users = JsonSerializer.Deserialize<List<User>>(content);
+            if (users is not null)
+            {
+                var response1 = users.Where(p => p.roleId == (int)Roles.Worker).ToList();
+                return response1.Where(p => p.id == id).FirstOrDefault();
+            }
+            else return null;
 
+        }
         private async void CreateUserButton_Click(object sender, RoutedEventArgs e)
         {
             if (!isChange)
             {
                 if (!isWorker)
                 {
-                    var user = new User2()
+                    try
                     {
-                        adress = AdressTextBox.Text,
-                        birthday = BirthTextBox.Text,
-                        phone = PhoneTextBox.Text,
-                        fio = FioTextBox.Text,
-                        login = LoginTextBox.Text,
-                        password = PasswordTextbox.Text,
-                        role = (int)Roles.User,
-                    };
-                    var userJson = JsonSerializer.Serialize(user);
-                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync($"{baseUrl}/User", content);
-                    if (response.IsSuccessStatusCode)
+                        if (PhoneTextBox.Text.Length <= 12)
+                        {
+                            var user = new User2()
+                            {
+                                adress = AdressTextBox.Text,
+                                birthday = BirthTextBox.Text,
+                                phone = PhoneTextBox.Text,
+                                fio = FioTextBox.Text,
+                                login = LoginTextBox.Text,
+                                password = PasswordTextbox.Text,
+                                role = (int)Roles.User,
+                            };
+                            var userJson = JsonSerializer.Serialize(user);
+                            var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                            var response = await client.PostAsync($"{baseUrl}/User", content);
+                            if (response.IsSuccessStatusCode)
+                            {
+                                MessageBox.Show("Читатель добавлен!");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Номер телефона не может быть длиннее 12 символов");
+                        }
+                    }
+                    catch (Exception ex)
                     {
-                        MessageBox.Show("Читатель добавлен!");
+                        MessageBox.Show(ex.Message);
                     }
                 }
                 else
                 {
-                    var user = new User2()
+                    try
                     {
-                        adress = AdressTextBox.Text,
-                        birthday = BirthTextBox.Text,
-                        phone = PhoneTextBox.Text,
-                        fio = FioTextBox.Text,
-                        login = LoginTextBox.Text,
-                        password = PasswordTextbox.Text,
-                        role = (int)Roles.Worker,
-                    };
-                    var userJson = JsonSerializer.Serialize(user);
-                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
-                    var response = await client.PostAsync($"{baseUrl}/User", content);
-                    if (response.IsSuccessStatusCode)
+                        if (PhoneTextBox.Text.Length <= 12)
+                        {
+
+                            var user = new User2()
+                            {
+                                adress = AdressTextBox.Text,
+                                birthday = BirthTextBox.Text,
+                                phone = PhoneTextBox.Text,
+                                fio = FioTextBox.Text,
+                                login = LoginTextBox.Text,
+                                password = PasswordTextbox.Text,
+                                role = (int)Roles.Worker,
+                            };
+                            var userJson = JsonSerializer.Serialize(user);
+                            var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                            var response = await client.PostAsync($"{baseUrl}/User", content);
+                            if (response.IsSuccessStatusCode)
+                            {
+                                MessageBox.Show("Сотрудник добавлен!");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Номер телефона не может быть длиннее 12 символов");
+                        }
+                    }
+                    catch (Exception ex)
                     {
-                        MessageBox.Show("Сотрудник добавлен!");
+                        MessageBox.Show(ex.Message);
                     }
                 }
             }
             else if (isChange)
             {
-                if (!isWorker)
+                if (int.TryParse(idTextBox.Text, out int id))
                 {
-                    var user = new User2()
+                    if (PhoneTextBox.Text.Length <= 12)
                     {
-                        adress = AdressTextBox.Text,
-                        birthday = BirthTextBox.Text,
-                        phone = PhoneTextBox.Text,
-                        fio = FioTextBox.Text,
-                        login = LoginTextBox.Text,
-                        password = PasswordTextbox.Text,
-                        role = (int)Roles.User,
-                    };
-                    var userJson = JsonSerializer.Serialize(user);
-                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
-                    var response = await client.PutAsync($"{baseUrl}/User/{idTextBox.Text}", content);
-                    if (response.IsSuccessStatusCode)
+                        var user1 = await GetUserById(id);
+                        if (user1 != null)
+                        {
+                            if (!isWorker)
+                            {
+                                var user = new User2()
+                                {
+                                    adress = AdressTextBox.Text,
+                                    birthday = BirthTextBox.Text,
+                                    phone = PhoneTextBox.Text,
+                                    fio = FioTextBox.Text,
+                                    login = LoginTextBox.Text,
+                                    password = PasswordTextbox.Text,
+                                    role = (int)Roles.User,
+                                };
+                                var userJson = JsonSerializer.Serialize(user);
+                                var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                                var response = await client.PutAsync($"{baseUrl}/User/{id}", content);
+                                if (response.IsSuccessStatusCode)
+                                {
+                                    MessageBox.Show("Читатель обновлен");
+                                }
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Такого читателя не существует");
+                        }
+                    }
+                    else
                     {
-                        MessageBox.Show("Читатель обновлен");
+                        MessageBox.Show("Номер телефона не может быть длиннее 12 символов");
                     }
                 }
                 else
                 {
-                    var user = new User2()
+                    MessageBox.Show("Айдишник должен быть числом");
+                }
+
+            }
+            else
+            {
+                if (int.TryParse(idTextBox.Text, out int id))
+                {
+                    if (PhoneTextBox.Text.Length <= 12)
                     {
-                        adress = AdressTextBox.Text,
-                        birthday = BirthTextBox.Text,
-                        phone = PhoneTextBox.Text,
-                        fio = FioTextBox.Text,
-                        login = LoginTextBox.Text,
-                        password = PasswordTextbox.Text,
-                        role = (int)Roles.Worker,
-                    };
-                    var userJson = JsonSerializer.Serialize(user);
-                    var content = new StringContent(userJson, Encoding.UTF8, "application/json");
-                    var response = await client.PutAsync($"{baseUrl}/User/{idTextBox.Text}", content);
-                    if (response.IsSuccessStatusCode)
-                    {
-                        MessageBox.Show("Сотрудник обновлен");
+                        var user1 = await GetWorkerById(id);
+                        if (user1 != null)
+                        {
+
+                            var user = new User2()
+                            {
+                                adress = AdressTextBox.Text,
+                                birthday = BirthTextBox.Text,
+                                phone = PhoneTextBox.Text,
+                                fio = FioTextBox.Text,
+                                login = LoginTextBox.Text,
+                                password = PasswordTextbox.Text,
+                                role = (int)Roles.Worker,
+                            };
+                            var userJson = JsonSerializer.Serialize(user);
+                            var content = new StringContent(userJson, Encoding.UTF8, "application/json");
+                            var response = await client.PutAsync($"{baseUrl}/User/{idTextBox.Text}", content);
+                            if (response.IsSuccessStatusCode)
+                            {
+                                MessageBox.Show("Сотрудник обновлен");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Такого сотрудника не сущесвует");
+                        }
                     }
+                    else
+                    {
+                        MessageBox.Show("Номер телефона не может быть длинее 12 символов");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Айдишник должен быть числом");
                 }
             }
         }

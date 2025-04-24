@@ -58,6 +58,7 @@ namespace ApiBookStore.Repositories
         }
         public async Task<int> DeleteUser(int id)
         {
+            await _context.Tickets.Where(p=>p.IdUser == id).ExecuteDeleteAsync();
             await _context.Users.Where(p => p.Id == id).ExecuteDeleteAsync();
             await _context.SaveChangesAsync();
             return id;

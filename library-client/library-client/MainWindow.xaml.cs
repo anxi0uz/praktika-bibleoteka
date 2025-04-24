@@ -68,7 +68,7 @@ namespace library_client
             }
             catch (JsonException ex)
             {
-                MessageBox.Show("Логин и пароль неверны");
+                MessageBox.Show("Логин и пароль неверны", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             catch (HttpRequestException ex)
             {

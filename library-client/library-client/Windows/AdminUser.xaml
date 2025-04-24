@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:library_client.Windows"
         mc:Ignorable="d"
-        Title="AdminUser" Height="450" Width="800">
+        Title="Управление пользователями" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="706,10,0,0" VerticalAlignment="Top" Width="84" Click="ExitButton_Click"/>
         <Button x:Name="CreateUser" Content="Создать" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Width="112" Click="CreateUser_Click"/>

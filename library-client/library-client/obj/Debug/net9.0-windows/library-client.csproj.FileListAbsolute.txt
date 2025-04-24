@@ -80,3 +80,9 @@ F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\ob
 F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerBookRelease.baml
 F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\AdminUser.g.cs
 F:\web dev\praktika library\praktika-bibleoteka\library-client\library-client\obj\Debug\net9.0-windows\Windows\AdminUser.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\AddBook.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\AdminUser.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerBookRelease.g.cs
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\AddBook.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\AdminUser.baml
+C:\Лыков Юзьков\Библиотека Юзьков\library-client\library-client\obj\Debug\net9.0-windows\Windows\WorkerBookRelease.baml

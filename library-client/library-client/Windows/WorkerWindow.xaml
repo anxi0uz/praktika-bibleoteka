@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:library_client.Windows"
         mc:Ignorable="d"
-        Title="WorkerWindow" Height="450" Width="800">
+        Title="Окно сотрудника" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="UsersButton" Content="Читатели" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Height="105" Width="282" Click="UsersButton_Click"/>
-        <Button x:Name="GiveBooksButton" Content="Выдача книг" HorizontalAlignment="Center" Margin="0,246,0,0" VerticalAlignment="Top" Height="105" Width="282"/>
+        <Button x:Name="GiveBooksButton" Content="Выдача книг" HorizontalAlignment="Center" Margin="0,246,0,0" VerticalAlignment="Top" Height="105" Width="282" Click="GiveBooksButton_Click"/>
         <Button x:Name="BooksButton" Content="Книги" HorizontalAlignment="Left" Margin="508,81,0,0" VerticalAlignment="Top" Height="105" Width="282" Click="BooksButton_Click"/>
         <Button x:Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="687,10,0,0" VerticalAlignment="Top" Width="103" Click="ExitButton_Click"/>
 

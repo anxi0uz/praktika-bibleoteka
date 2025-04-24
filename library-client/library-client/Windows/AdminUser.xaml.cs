@@ -82,11 +82,36 @@ namespace library_client.Windows
 
         private async void DeleteUserButton_Click(object sender, RoutedEventArgs e)
         {
-            var response = await client.DeleteAsync($"{baseUrl}/User/{idTextBoxForDelete.Text}");
-            if (!isWorker)
-                if (response.IsSuccessStatusCode) MessageBox.Show("Читатель удален");
-            else 
-                if (response.IsSuccessStatusCode) MessageBox.Show("Сотрудник удален");
+            if (int.TryParse(idTextBoxForDelete.Text, out var id))
+            {
+                List<User> users = new List<User>();
+                if (!isWorker) users = await FillDataGrid();
+                else users = await FillDataGrid1();
+                var user1 = users.Where(p => p.id == id).FirstOrDefault();
+                if (user1 != null)
+                { 
+                    try
+                    {
+
+                        var response = await client.DeleteAsync($"{baseUrl}/User/{id}");
+                        if (!isWorker)
+                            if (response.IsSuccessStatusCode) MessageBox.Show("Читатель удален");
+                            else if (response.IsSuccessStatusCode) MessageBox.Show("Сотрудник удален");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Произошла некая ошибка {ex}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Пользователь не найден");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Айдишник обязан быть числом");
+            }
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)

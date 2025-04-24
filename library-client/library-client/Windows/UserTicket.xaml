@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:library_client.Windows"
         mc:Ignorable="d"
-        Title="Личная карточка" Height="450" Width="640">
+        Title="Личная карточка" Height="450" Width="640" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button x:Name="back" Content="Назад" HorizontalAlignment="Left" Margin="515,10,0,0" VerticalAlignment="Top" Width="115" Click="back_Click"/>
         <DataGrid x:Name="booksDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="18,40,18,20"/>
